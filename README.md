@@ -12,7 +12,7 @@ Parse the AndroidManifest.xml and resources.arsc file in the apk file (apk alrea
 eg:
 ```js
 import JSZip from 'jszip';
-import ApkInfo from 'apkinfo';
+import ApkInfo from 'js-apk-parser';
 
 JSZip.loadAsync(file)
   .then(zip => {

@@ -1,5 +1,5 @@
 {
-  "name": "apkinfo",
+  "name": "js-apk-parser",
   "version": "0.0.1",
   "description": "Parse the AndroidManifest.xml and resources.arsc file in the apk package.",
   "main": "index.js",
