@@ -1,0 +1,24 @@
+{
+  "name": "apkinfo",
+  "version": "0.0.1",
+  "description": "Parse the AndroidManifest.xml and resources.arsc file in the apk package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frazy/ApkInfo.git"
+  },
+  "keywords": [
+    "apk",
+    "AndroidManifest.xml",
+    "resources.arsc"
+  ],
+  "author": "frazy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frazy/ApkInfo/issues"
+  },
+  "homepage": "https://github.com/frazy/ApkInfo#readme"
+}
