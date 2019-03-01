@@ -1,9 +1,10 @@
 {
   "name": "js-apk-parser",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Parse the AndroidManifest.xml and resources.arsc file in the apk package.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/frazy/ApkInfo/issues"
   },
-  "homepage": "https://github.com/frazy/ApkInfo#readme"
+  "homepage": "https://github.com/frazy/ApkInfo#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
 }

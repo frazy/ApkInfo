@@ -1,0 +1,18 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+  }
+}
